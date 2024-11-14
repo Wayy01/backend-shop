@@ -20,7 +20,7 @@ export function AuthForm() {
       provider: 'google', // Specify Google as the OAuth provider
       options: {
         // Redirect back to our auth callback page after successful authentication
-        redirectTo: `${window.location.origin}/auth/callback`,
+        redirectTo: `https://bhagqltssswmebrgorop.supabase.co/auth/v1/callback`,
         queryParams: {
           // Request offline access to get refresh token
           access_type: 'offline',

@@ -20,7 +20,7 @@ export function AuthForm() {
       provider: 'google', // Specify Google as the OAuth provider
       options: {
         // Redirect back to our auth callback page after successful authentication
-        redirectTo: `https://bhagqltssswmebrgorop.supabase.co/auth/v1/callback`,
+        redirectTo: `https://backend-shop-rho.vercel.app/auth/callback`,
         queryParams: {
           // Request offline access to get refresh token
           access_type: 'offline',
